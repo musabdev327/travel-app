@@ -8,7 +8,7 @@ const Header: React.FC = () => {
     <div className="header">
       <div className="header__icon">
         <img src={citizenIcon} alt="Citizen Icon" />
-        <h4>citizen remote</h4>
+        <h4 data-testid="heading">citizen remote</h4>
       </div>
       <div className="header_steps">
         <Steps onChange={() => {}} stepsLength={4} />

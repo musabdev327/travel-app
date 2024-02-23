@@ -32,11 +32,11 @@ const ItemQuantity: React.FC<ItemQuantityProps> = ({ selectedQuantity, onChange 
 
   return (
     <div className='item-quantity-container'>
-      <Button onClick={() => decrementQuantity(quantity - 1)} classes="quantity-btn" isIcon>
+      <Button onClick={() => decrementQuantity(quantity - 1)} testId="minus-btn" classes="quantity-btn" isIcon>
         <img src={minusIcon} alt="plus icon" style={{ height: '10px' }} />
       </Button>
-      <p className='item-quantity-text'>{quantity}</p>
-      <Button onClick={() => updateQuantity(quantity + 1)} classes="quantity-btn" isIcon>
+      <p data-testid="quantity" className='item-quantity-text'>{quantity}</p>
+      <Button onClick={() => updateQuantity(quantity + 1)} testId="positive-btn" classes="quantity-btn" isIcon>
         <img src={plusIcon} alt="minus icon" />
       </Button>
     </div>

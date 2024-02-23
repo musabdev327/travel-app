@@ -9,9 +9,9 @@ interface ChipProps {
 
 const Chip: React.FC<ChipProps> = ({ label, onClick, onClose }) => {
   return (
-    <div className="chip" onClick={onClick}>
+    <div className="chip" data-testid="chip-container" onClick={onClick}>
       <span className="chip-label">{label}</span>
-      {onClose && <button className="chip-close-button" onClick={onClose}>x</button>}
+      {onClose && <button className="chip-close-button" data-testid="chip-close" onClick={onClose}>x</button>}
     </div>
   );
 };

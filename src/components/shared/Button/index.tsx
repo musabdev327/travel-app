@@ -6,15 +6,16 @@ interface ButtonProps {
   isIcon?: boolean;
   onClick?: () => void;
   children: React.ReactNode;
+  testId?: string;
 }
 
-const Button: React.FC<ButtonProps> = ({ onClick, children, classes, isIcon }) => {
+const Button: React.FC<ButtonProps> = ({ onClick, children, classes, isIcon, testId }) => {
   const baseClassName = 'button';
 
   const combinedClassName = classes ? `${baseClassName} ${classes}` : baseClassName;
 
   return (
-    <button className={combinedClassName} onClick={onClick}>
+    <button className={combinedClassName} data-testid={testId} onClick={onClick}>
       {
         isIcon 
         ? children
