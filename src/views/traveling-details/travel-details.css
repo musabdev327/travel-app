@@ -180,6 +180,7 @@
 .member {
   display: flex;
   align-items: center;
+  margin-right: 7px;
 }
 
 .member > span {
