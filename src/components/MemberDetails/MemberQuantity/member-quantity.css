@@ -1,0 +1,29 @@
+.member-detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.member-label-container {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.member-detail__label {
+  font-weight: 500;
+  font-size: 14px;
+  margin-inline: 0;
+  margin-block: 0;
+  line-height: 20px;
+  color: #1C2024;
+}
+
+.member-detail__description {
+  font-size: 14px;
+  margin-block: 0;
+  line-height: 16px;
+  font-weight: 400;
+  color: #60646C;
+}

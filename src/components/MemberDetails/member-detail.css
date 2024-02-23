@@ -1,0 +1,22 @@
+.member-container {
+  padding: 16px;
+  border: 1px solid #0000301B;
+  border-radius: 16px;
+  transition: transform 2s ease;
+}
+
+.member-container > hr {
+  border: 1px solid;
+  color: #02023414;
+}
+
+.member--heading {
+  display: flex;
+  align-items: center;
+}
+
+.member--heading > span {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 5px;
+}

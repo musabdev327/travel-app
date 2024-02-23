@@ -1,0 +1,26 @@
+.item-quantity-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.item-quantity-text {
+  margin: 0 8px;
+  padding: 0 8px;
+}
+
+.quantity-btn > img {
+  color: black;
+  margin: 12px;
+  width: 10px;
+}
+
+.quantity-btn {
+  display: flex;
+  background-color: #00003B0D;
+  padding: 10px;
+  align-items: center;
+  padding-block: 0;
+  padding-inline: 0;
+}

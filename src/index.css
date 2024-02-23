@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Inter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Inter;
+}
+
+p, h3, h4, h5, h1 {
+  margin-inline: 0px;
+  margin-block: 0px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-50 {
+  flex-basis: 50%;
+}
+
+.gap-5 {
+  gap: 5px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-20 {
+  gap: 20px;
+}

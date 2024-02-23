@@ -1,0 +1,12 @@
+.steps-container img {
+  transition: transform 0.2s ease;
+}
+
+.selected-step {
+  transform: scale(1.1); 
+}
+
+.step {
+  margin: 4px;
+  cursor: pointer;
+}

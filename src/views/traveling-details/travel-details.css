@@ -1,0 +1,236 @@
+.travel-details-container {
+  display: flex;
+  gap: 150px;
+  padding: 50px 80px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .travel-details-container {
+    flex-direction: column;
+  }
+}
+
+
+.travel-details--members {
+  flex-basis: 35%;
+}
+
+.travel-details--financial {
+  flex-basis: 65%;
+  justify-content: center;
+  display: flex;
+}
+
+.travel-details--members_quantity {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.travel-details--members__labels {
+  margin-bottom: 6px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.travel-details--members__labels > h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1F2327;
+  letter-spacing: -0.1px;
+}
+
+.travel-details--members__labels > p {
+  font-size: 16px;
+  color: #60646C;
+  font-weight: 500;
+}
+
+.travel-details--members__details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.travel-details--members__details > .button {
+  border: 1px solid #01012E22;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.travel-details--members__details > .button:hover,
+.button:focus {
+  border-color: #1F2327;
+}
+
+.travel-details--members__details > .button:hover,
+.button:focus > .button__text {
+  font-weight: 600;
+}
+
+.travel-details--members__details > .button > .button__text {
+  color: #000509E3;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.travel-details--members__action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.travel-details--members__action > .back-btn {
+  background-color: transparent;
+}
+
+.travel-details--members__action > .continue {
+  background-color: #1F2327;
+  border-radius: 10px;
+}
+
+.travel-details--members__action > .continue > .button__text {
+  background-color: #1F2327;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.travel-details--members__action > .back-btn > .button__text {
+  color: #000509E3;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.travel-details--financial_information {
+  border: 5px solid #e4e4e9;
+  border-radius: 20px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 0px 4px #0000301B;
+  box-shadow: 0px 1px 2px 0px #00000029;
+}
+
+.travel-details--financial_information__card {
+ background: white;
+ margin: 20px;
+ border-radius: 16px;
+ display: flex;
+ flex-direction: column;
+}
+
+.card__label {
+  font-weight: 500;
+  width: fit-content;
+  font-size: 12px;
+  color: #60646C;
+}
+
+.card__label > hr {
+  color: #D3D4DB;
+  border-style: dotted;
+}
+
+.travel-details--financial_information__card__body > h5 {
+  font-weight: 500;
+  font-size: 12px;
+  color: #60646C;
+  margin-bottom: 6px;
+}
+
+.travel-details--financial_information__card__body > p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #1F2327;
+}
+
+.travel-details--financial_information__card_income {
+  background: #F9F9FB;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.travel-details--financial_information__card_income > .label {
+  color: #60646C;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.travel-details--financial_information__card_income > .price {
+  color: #1F2327;
+  font-size: 14px;
+  font-weight: 500; 
+}
+
+.travel-details--financial_information__members {
+  padding: 20px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #0000301B;
+}
+
+.travel-details--financial_information__members_quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.member {
+  display: flex;
+  align-items: center;
+}
+
+.member > span {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.member > p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.additions {
+  padding: 20px;
+}
+
+.travel-details--financial_information__details {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.travel-details--financial_information__avatar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+
+.travel-details--financial_information__flag {
+  display: flex;
+  gap: 5px;
+}
+
+.travel-details--financial_information__avatar > .avatar__info > h3 {
+  font-size: 16px;
+  color: #EEF0F1;
+  font-weight: 500;
+}
+
+.travel-details--financial_information__avatar > .avatar__info > p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #EDF3FDAD;
+}
+
+.travel-details--footer {
+  font-weight: 600;
+  font-size: 12px;
+  color: #E6F4FE75;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}

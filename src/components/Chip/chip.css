@@ -1,0 +1,15 @@
+.chip {
+  display: flex;
+  padding: 4px 9px;
+  border-radius: 16px;
+  background-color: #F2F2F5;
+  margin-right: 8px;
+}
+
+.chip-close-button {
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 12px;
+  cursor: pointer;
+}
