@@ -49,3 +49,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
   npm test
   ```
 
+
+### LOOM VIDEO
+https://www.loom.com/share/6f698fb858b6465f860bb00222a5bf32
